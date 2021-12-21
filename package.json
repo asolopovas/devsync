@@ -1,0 +1,20 @@
+{
+    "name": "dev-sync",
+    "version": "1.0.0",
+    "description": "Local/Remote Project Files and DB Sync",
+    "main": "syncdb.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "deno run -A --watch src/devsync.ts configs/default.json ",
+        "start": "deno run -A src/devsync.ts configs/default.json",
+        "install": "deno install -A src/devsync.ts",
+        "reinstall": "deno uninstall devsync && deno install -A src/devsync.ts",
+        "uninstall": "deno uninstall devsync"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^17.0.2"
+    }
+}

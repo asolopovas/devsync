@@ -1,0 +1,13 @@
+{
+    "sshHost": "host",
+    "remote": {
+        "host": "example.com",
+        "dbName": "exampleDB",
+        "wpPath": "/home/username/public_html"
+    },
+    "local": {
+        "host": "example.test",
+        "dbName": "exampleDB",
+        "wpPath": "/var/www/project"
+    }
+}

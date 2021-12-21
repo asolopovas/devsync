@@ -1,0 +1,3 @@
+configs/**
+db/**
+!configs/default.json
